@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Crack Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Crack Detection</h1>
+        
+        <!-- Real-Time Video Feed -->
+        <div>
+            <img src="{{ url_for('video_feed') }}" alt="Real-Time Detection" width="640" height="480">
+        </div>
+
+        <!-- Navigation Back to Upload -->
+        <br>
+        <a href="/" class="navlink">Back to Upload Image Page</a>
+    </div>
+</body>
+</html>

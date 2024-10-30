@@ -1,0 +1,21 @@
+Flask>=2.2.2              # Web framework for building the application
+Jinja2==3.1.2             # Templating engine for rendering HTML
+numpy>=1.21.2             # NumPy for numerical operations
+opencv-python==4.10.0.84  # OpenCV for image processing (use opencv-python-headless for headless environments)
+Werkzeug>=2.2.0           # WSGI utility library for Flask
+gunicorn==20.1.0          # WSGI HTTP Server for UNIX
+Pillow>=9.0.0             # Imaging library for opening, manipulating, and saving images
+ultralytics==8.0.0        # YOLOv8 package for object detection
+torch==2.0.1              # PyTorch for deep learning
+torchvision==0.15.2       # Vision library for PyTorch
+
+# Python version note: Use Python 3.7 or above for compatibility with these packages.
+
+
+
+
+
+
+# for creating the env
+# python -m venv env
+# .\env\Scripts\activate
