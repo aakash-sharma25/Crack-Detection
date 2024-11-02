@@ -1,3 +1,6 @@
+
+pip install --upgrade pip
+
 Flask>=2.2.2              # Web framework for building the application
 Jinja2==3.1.2             # Templating engine for rendering HTML
 numpy>=1.24.4             # NumPy for numerical operations
@@ -11,7 +14,6 @@ torchvision==0.15.2       # Vision library for PyTorch
 
 # Python version note: Use Python 3.7 or above for compatibility with these packages.
 
-pip install --upgrade pip
 
 
 
