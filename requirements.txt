@@ -1,5 +1,5 @@
 
-pip install --upgrade pip
+# pip install --upgrade pip
 
 Flask>=2.2.2              # Web framework for building the application
 Jinja2==3.1.2             # Templating engine for rendering HTML
@@ -8,7 +8,7 @@ opencv-python==4.10.0.84  # OpenCV for image processing (use opencv-python-headl
 Werkzeug>=2.2.0           # WSGI utility library for Flask
 gunicorn==20.1.0          # WSGI HTTP Server for UNIX
 Pillow>=9.0.0             # Imaging library for opening, manipulating, and saving images
-ultralytics==8.0.20        # YOLOv8 package for object detection
+ultralytics==8.3.23       # YOLOv8 package for object detection
 torch==2.0.1              # PyTorch for deep learning
 torchvision==0.15.2       # Vision library for PyTorch
 
